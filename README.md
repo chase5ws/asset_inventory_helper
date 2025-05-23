@@ -1,1 +1,26 @@
-# asset_inventory_helper-
+專案說明:
+近期遭遇公司的資訊資產盤點，為了降低手key工作量製作一個小程式降低重複操作
+
+程式介紹:
+title_taker excel提取器: 將該欄位出現的不重複值進行提取，並且刪除同樣重複的值，並且入excel帶入日期時間作為檔名
+
+
+
+
+
+
+
+
+
+
+
+
+
+檔案說明
+(1)title_taker folder裡面2個檔案
+exe執行檔可以直接用，並且可以選擇該folder裡面的test_title.xlsx去做相關測試
+py檔供其他人進行修改以及使用
+
+
+
+該專案使用monica進行輔助2025/5/23
