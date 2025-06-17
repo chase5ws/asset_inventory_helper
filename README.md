@@ -1,19 +1,33 @@
-專案說明:
-近期遭遇公司的資訊資產盤點，為了降低手key工作量製作一個小程式降低重複操作
+# Excel 資訊資產盤點輔助工具 (Finally Demo)
 
-程式介紹:
-(1)main.exe有2個檔案選擇，一個是加載excel裡面的直去生成下拉式表單，一個是要選擇裡面的目標檔案，帶入之後會自動判別裡面的sheet並且可以選取，然後可以透過新增的方式重複將你選擇的直進行輸入
-(2)title_taker excel提取器: 將該欄位出現的不重複值進行提取，並且刪除同樣重複的值，並且入excel帶入日期時間作為檔名
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+![platform](https://img.shields.io/badge/platform-Windows-red)
+![python](https://img.shields.io/badge/python-3.10%2B-yellow)
+![GitHub issues](https://img.shields.io/github/issues/chase5ws/forward-tek_key_excel)
+![GitHub stars](https://img.shields.io/github/stars/chase5ws/forward-tek_key_excel)
+![GitHub forks](https://img.shields.io/github/forks/chase5ws/forward-tek_key_excel)
+![icon](asset/icon.png)
 
-檔案說明
-exe執行檔可以直接用，並且可以選擇該folder裡面的test_title.xlsx去做相關測試
-py檔供其他人進行修改以及使用
+---
 
-該專案使用monica進行輔助by chase5ws 2025/5/23
+### 專案說明
 
+這是一個基於 **Python** 開發的 Excel 資訊資產盤點輔助工具，旨在簡化重複性操作並提升工作效率。透過此工具，使用者可以快速提取資料、生成下拉式選單、處理目標檔案，並自動生成結果報表。
 
+---
 
-待開發功能
-1.合併GUI並且可以在主程式選擇要title_taker 並且自動帶入
-2.重複新增一樣選項(譬如編號選項自動將B...數字+1)重複新增
-3.更好的GUI美術顯示
+### DEMO 影片
+
+(目前無影片示範，未來可補充)
+
+---
+
+### 環境安裝 (Environment Settings)
+
+1. 安裝 Python 3.10+：
+   - [Python 官方下載](https://www.python.org/downloads/)
+
+2. 安裝所需套件：
+   ```bash
+   pip install openpyxl pandas
