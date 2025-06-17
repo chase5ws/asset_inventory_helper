@@ -1,4 +1,4 @@
-# Excel 資訊資產盤點輔助工具 (Finally Demo)
+# Excel 資訊資產盤點輔助工具
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
